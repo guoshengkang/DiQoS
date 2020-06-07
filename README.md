@@ -2,7 +2,7 @@ This repository is the Python implementation for the SCC 2020 accepted paper:
 > Guosheng Kang, Jianxun Liu, Buqing Cao, Yong Xiao. "Diversified QoS-Centric Service Recommendation for Uncertain QoS Preferences". IEEE International Conference on Services Computing. 2020, pp. \*\*-\*\*.
 
 ## Procedure of DiQoS
-  <div align=center><img width="1000" height="540" src="results/Procedure of DQCSR.png"/>
+  <div align=center><img width="500" height="400" src="results/Procedure of DQCSR.png"/></div>
 
 ## Dataset
 The experiments were conducted on a widely used public real-world dataset named QWS [1]. This dataset can be accessed from [Zenodo](https://zenodo.org/record/3557008#.XpmwmsgzaUn) website. The dataset contains 8-dimensional quality information on 2,507 real-world Web services, including latency, availability, etc.  
