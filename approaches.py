@@ -268,12 +268,12 @@ if __name__=='__main__':
 		div=diversity(sn=sn,resutls=results_DQ)
 		DCG_arr[4,index]=DCG_value
 		Div_arr[4,index]=div
-	np.savetxt("DCG_value_n.csv",DCG_arr,delimiter=',',fmt='%.8f')
-	np.savetxt("Div_value_n.csv",Div_arr,delimiter=',',fmt='%.8f')
-	# np.savetxt("DCG_value_d.csv",DCG_arr,delimiter=',',fmt='%.8f')
-	# np.savetxt("Div_value_d.csv",Div_arr,delimiter=',',fmt='%.8f')
-	# np.savetxt("DCG_value_k.csv",DCG_arr,delimiter=',',fmt='%.8f')
-	# np.savetxt("Div_value_k.csv",Div_arr,delimiter=',',fmt='%.8f')
+	np.savetxt("results\\DCG_value_n.csv",DCG_arr,delimiter=',',fmt='%.8f')
+	np.savetxt("results\\Div_value_n.csv",Div_arr,delimiter=',',fmt='%.8f')
+	# np.savetxt("results\\DCG_value_d.csv",DCG_arr,delimiter=',',fmt='%.8f')
+	# np.savetxt("results\\Div_value_d.csv",Div_arr,delimiter=',',fmt='%.8f')
+	# np.savetxt("results\\DCG_value_k.csv",DCG_arr,delimiter=',',fmt='%.8f')
+	# np.savetxt("results\\Div_value_k.csv",Div_arr,delimiter=',',fmt='%.8f')
 	print(DCG_arr)
 	print(Div_arr)
 	

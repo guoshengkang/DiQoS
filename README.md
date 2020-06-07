@@ -7,7 +7,7 @@ The experiments were conducted on a widely used public real-world dataset named 
 
 ## Data preprocessing
 * **Code**: [data_preprocess.py](data_preprocess.py)
-* **Input**: [qws2\\qws2.csv]([qws2/qws2.csv)
+* **Input**: [qws2\\qws2.csv](qws2/qws2.csv)
 * **Output**: [QWS.pickle](QWS.pickle)
   
 ### Approaches (and Evaluate Effectiveness)
@@ -25,11 +25,11 @@ We have implemented DiQoS and other four existing representative approaches.
 #### Evaluate Effectiveness
 * **Code**: [approaches.py](approaches.py)
 * **Input**: [QWS.pickle](QWS.pickle)
-* **Output**: [DCG_value_n.csv](DCG_value_n.csv), [Div_value_n.csv](Div_value_n.csv), [DCG_value_d.csv](DCG_value_d.csv), [Div_value_d.csv](Div_value_d.csv),  [DCG_value_k.csv](DCG_value_k.csv), [Div_value_k.csv](Div_value_k.csv)
+* **Output**: [DCG_value_n.csv](results/DCG_value_n.csv), [Div_value_n.csv](results/Div_value_n.csv), [DCG_value_d.csv](results/DCG_value_d.csv), [Div_value_d.csv](results/Div_value_d.csv),  [DCG_value_k.csv](results/DCG_value_k.csv), [Div_value_k.csv](results/Div_value_k.csv)
   
 #### Evaluate Efficiency
   * **Code**: [evaluate_efficiency.py](evaluate_efficiency.py)
-  * **Output**: [running_time_n.csv](running_time_n.csv), [running_time_d.csv](running_time_d.csv), [running_time_k.csv](running_time_k.csv)
+  * **Output**: [running_time_n.csv](results/running_time_n.csv), [running_time_d.csv](results/running_time_d.csv), [running_time_k.csv](results/running_time_k.csv)
   
 #### Plot Figures for Effectiveness and Efficiency
   * **Python Code**: [plot_effectiveness.py](plot_effectiveness.py), [plot_efficiency.py](plot_efficiency.py)

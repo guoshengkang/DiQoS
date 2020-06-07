@@ -110,9 +110,9 @@ if __name__=='__main__':
 
 	efficiency_arr=efficiency_arr*1000
 
-	# np.savetxt("running_time_n.csv",efficiency_arr,delimiter=',',fmt='%.8f')
-	# np.savetxt("running_time_d.csv",efficiency_arr,delimiter=',',fmt='%.8f')
-	np.savetxt("running_time_k.csv",efficiency_arr,delimiter=',',fmt='%.8f')
+	# np.savetxt("results\\running_time_n.csv",efficiency_arr,delimiter=',',fmt='%.8f')
+	# np.savetxt("results\\running_time_d.csv",efficiency_arr,delimiter=',',fmt='%.8f')
+	np.savetxt("results\\running_time_k.csv",efficiency_arr,delimiter=',',fmt='%.8f')
 	
 	print(efficiency_arr)
 	

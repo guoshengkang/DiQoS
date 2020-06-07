@@ -44,6 +44,6 @@ print("Service candidates:")
 print(Candidates.shape)
 
 # 保存
-with open('QWS.pickle', 'wb') as f:
+with open('results\\QWS.pickle', 'wb') as f:
 	pickle.dump(Constriants, f)  # QoS Constraints
 	pickle.dump(Candidates, f)   # QoS of Web service candidates
