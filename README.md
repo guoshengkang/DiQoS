@@ -13,7 +13,7 @@ The experiments were conducted on a widely used public real-world dataset named 
 * **Input**: [qws2/qws2.csv](qws2/qws2.csv)
 * **Output**: [QWS.pickle](QWS.pickle)
   
-### Approaches (and Evaluate Effectiveness)
+### Approaches
 #### Comparing Approaches
 We have implemented DiQoS and other four existing representative approaches.  
 **DSL-RS**: This baseline approach randomly selects k services from S_DSL.  
