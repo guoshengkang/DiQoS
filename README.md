@@ -7,7 +7,7 @@ The experiments were conducted on a widely used public real-world dataset named 
 
 ## Data preprocessing
 * **Code**: [data_preprocess.py](data_preprocess.py)
-* **Input**: [qws2\\qws2.csv](qws2/qws2.csv)
+* **Input**: [qws2/qws2.csv](qws2/qws2.csv)
 * **Output**: [QWS.pickle](QWS.pickle)
   
 ### Approaches (and Evaluate Effectiveness)
