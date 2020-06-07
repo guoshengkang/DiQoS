@@ -4,9 +4,9 @@ import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
 
-running_time_n=np.loadtxt("running_time_n.csv", delimiter=',')
-running_time_d=np.loadtxt("running_time_d.csv", delimiter=',')
-running_time_k=np.loadtxt("running_time_k.csv", delimiter=',')
+running_time_n=np.loadtxt("results\\running_time_n.csv", delimiter=',')
+running_time_d=np.loadtxt("results\\running_time_d.csv", delimiter=',')
+running_time_k=np.loadtxt("results\\running_time_k.csv", delimiter=',')
 n_list=[1000,1200,1400,1600,1800,2000]	# number of service candidates
 d_list=[3,4,5,6,7,8]					# QoS dimensions
 k_list=[3,4,5,6,7,8]					# top-k
@@ -57,5 +57,5 @@ plt.grid(linestyle='-.')
 
 
 plt.tight_layout() #设置默认的间距
-plt.savefig('running_time_performance.png', dpi=1000,bbox_inches='tight') #指定分辨率保存
+plt.savefig('results/efficiency.png', dpi=1000,bbox_inches='tight') #指定分辨率保存
 plt.show()

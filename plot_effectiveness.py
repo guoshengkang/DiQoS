@@ -4,12 +4,12 @@ import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
 
-DCG_arr_n=np.loadtxt("DCG_value_n.csv", delimiter=',')
-Div_arr_n=np.loadtxt("Div_value_n.csv", delimiter=',')
-DCG_arr_d=np.loadtxt("DCG_value_d.csv", delimiter=',')
-Div_arr_d=np.loadtxt("Div_value_d.csv", delimiter=',')
-DCG_arr_k=np.loadtxt("DCG_value_k.csv", delimiter=',')
-Div_arr_k=np.loadtxt("Div_value_k.csv", delimiter=',')
+DCG_arr_n=np.loadtxt("results\\DCG_value_n.csv", delimiter=',')
+Div_arr_n=np.loadtxt("results\\Div_value_n.csv", delimiter=',')
+DCG_arr_d=np.loadtxt("results\\DCG_value_d.csv", delimiter=',')
+Div_arr_d=np.loadtxt("results\\Div_value_d.csv", delimiter=',')
+DCG_arr_k=np.loadtxt("results\\DCG_value_k.csv", delimiter=',')
+Div_arr_k=np.loadtxt("results\\Div_value_k.csv", delimiter=',')
 n_list=[1000,1200,1400,1600,1800,2000]	# number of service candidates
 d_list=[3,4,5,6,7,8]					# QoS dimensions
 k_list=[3,4,5,6,7,8]					# top-k
@@ -103,5 +103,5 @@ plt.grid(linestyle='-.')
 
 
 plt.tight_layout() #设置默认的间距
-plt.savefig('effectiveness.png', dpi=1000,bbox_inches='tight') #指定分辨率保存
+plt.savefig('results/effectiveness.png', dpi=1000,bbox_inches='tight') #指定分辨率保存
 plt.show()

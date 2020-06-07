@@ -33,7 +33,7 @@ We have implemented DiQoS and other four existing representative approaches.
   
 #### Plot Figures for Effectiveness and Efficiency
   * **Python Code**: [plot_effectiveness.py](plot_effectiveness.py), [plot_efficiency.py](plot_efficiency.py)
-  * **Output**: [effectiveness.png](effectiveness.png), [efficiency.png](efficiency.png)
+  * **Output**: [effectiveness.png](results/effectiveness.png), [efficiency.png](results/efficiency.png)
    * **Matlab Code**: [plot_effectiveness.m](plot_effectiveness.m), [plot_efficiency.m](plot_efficiency.m)
-  * **Output**: [effectiveness.emf](effectiveness.emf), [efficiency.emf](efficiency.emf)
+  * **Output**: [effectiveness.emf](results/effectiveness.emf), [efficiency.emf](results/efficiency.emf)
 
