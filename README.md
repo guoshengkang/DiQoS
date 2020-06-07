@@ -1,8 +1,11 @@
 This repository is the Python implementation for the SCC 2020 accepted paper:
 > Guosheng Kang, Jianxun Liu, Buqing Cao, Yong Xiao. "Diversified QoS-Centric Service Recommendation for Uncertain QoS Preferences". IEEE International Conference on Services Computing. 2020, pp. \*\*-\*\*.
 
+## Procedure of DiQoS
+  <div align=center><img width="1000" height="540" src="results/Procedure of DQCSR.png"/>
+
 ## Dataset
-The experiments were conducted on a widely used public real-world dataset named QWS [1]. This dataset can be accessed from [Zenodo website](https://zenodo.org/record/3557008#.XpmwmsgzaUn). The dataset contains 8-dimensional quality information on 2,507 real-world Web services, including latency, availability, etc.  
+The experiments were conducted on a widely used public real-world dataset named QWS [1]. This dataset can be accessed from [Zenodo](https://zenodo.org/record/3557008#.XpmwmsgzaUn) website. The dataset contains 8-dimensional quality information on 2,507 real-world Web services, including latency, availability, etc.  
 [1] E. Al-Masri, and Q. H. Mahmoud, “Investigating Web Services on the World Wide Web,” International Conference on World Wide Web, 2008, pp. 795-804.
 
 ## Data preprocessing
@@ -36,4 +39,7 @@ We have implemented DiQoS and other four existing representative approaches.
   * **Output**: [effectiveness.png](results/effectiveness.png), [efficiency.png](results/efficiency.png)
    * **Matlab Code**: [plot_effectiveness.m](plot_effectiveness.m), [plot_efficiency.m](plot_efficiency.m)
   * **Output**: [effectiveness.emf](results/effectiveness.emf), [efficiency.emf](results/efficiency.emf)
+
+-----
+<p align="left">欢迎并感谢您提出宝贵的问题或建议: 点击<a href='https://github.com/guoshengkang/DiQoS/issues/new'><b>【我要提问】</b></a></p>
 
