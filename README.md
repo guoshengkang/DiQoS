@@ -1,4 +1,4 @@
-This repository is the Python implementation for the ICWS 2020 accepted paper:
+This repository is the Python implementation for the SCC 2020 accepted paper:
 > Guosheng Kang, Jianxun Liu, Buqing Cao, Yong Xiao. "Diversified QoS-Centric Service Recommendation for Uncertain QoS Preferences". IEEE International Conference on Services Computing. 2020, pp. \*\*-\*\*.
 
 ## Dataset
@@ -25,13 +25,7 @@ We have implemented DiQoS and other four existing representative approaches.
 #### Evaluate Effectiveness
 * **Code**: [approaches.py](approaches.py)
 * **Input**: [QWS.pickle](QWS.pickle)
-* **Output**:
-  * [DCG_value_n.csv](DCG_value_n.csv)
-  * [Div_value_n.csv](Div_value_n.csv)
-  * [DCG_value_d.csv](DCG_value_d.csv)
-  * [Div_value_d.csv](Div_value_d.csv)
-  * [DCG_value_k.csv](DCG_value_k.csv)
-  * [Div_value_k.csv](Div_value_k.csv)
+* **Output**: [DCG_value_n.csv](DCG_value_n.csv), [Div_value_n.csv](Div_value_n.csv), [DCG_value_d.csv](DCG_value_d.csv), [Div_value_d.csv](Div_value_d.csv),  [DCG_value_k.csv](DCG_value_k.csv), [Div_value_k.csv](Div_value_k.csv)
   
 #### Evaluate Efficiency
   * **Code**: [evaluate_efficiency.py](evaluate_efficiency.py)
