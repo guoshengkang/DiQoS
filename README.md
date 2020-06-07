@@ -34,8 +34,8 @@ We have implemented DiQoS and other four existing representative approaches.
   * **Output**: [running_time_n.csv](running_time_n.csv), [running_time_d.csv](running_time_d.csv), [running_time_k.csv](running_time_k.csv)
   
 * **Plot Figures for Effectiveness and Efficiency**
-  * **Python Code**: [plot_effectiveness.py](plot_effectiveness.py),[plot_efficiency.py](plot_efficiency.py)
-  * **Output**: [effectiveness.png](effectiveness.png),[efficiency.png](efficiency.png)
-   * **Matlab Code**: [plot_effectiveness.m](plot_effectiveness.m),[plot_efficiency.m](plot_efficiency.m)
-  * **Output**: [effectiveness.emf](effectiveness.emf),[efficiency.emf](efficiency.emf)
+  * **Python Code**: [plot_effectiveness.py](plot_effectiveness.py), [plot_efficiency.py](plot_efficiency.py)
+  * **Output**: [effectiveness.png](effectiveness.png), [efficiency.png](efficiency.png)
+   * **Matlab Code**: [plot_effectiveness.m](plot_effectiveness.m), [plot_efficiency.m](plot_efficiency.m)
+  * **Output**: [effectiveness.emf](effectiveness.emf), [efficiency.emf](efficiency.emf)
 
