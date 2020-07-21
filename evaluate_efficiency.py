@@ -32,6 +32,7 @@ if __name__=='__main__':
 	d=4
 	c_k=1
 	lamda=0.8
+	running_times=100
 	
 	# 参数变化结果
 	efficiency_arr=np.zeros((5,6))
@@ -55,7 +56,7 @@ if __name__=='__main__':
 		
 		# (1)调用DSL_RS方法
 		time_range=[]
-		for _ in range(10):
+		for _ in range(running_times):
 			begin_time = time()
 			results_RS=RS(Constraint=Sr,Candidates=skyline_serves,top_k=top_k)
 			end_time = time()
@@ -66,7 +67,7 @@ if __name__=='__main__':
 
 		# (2)调用DSL_KNN方法
 		time_range=[]
-		for _ in range(10):
+		for _ in range(running_times):
 			begin_time = time()
 			results_KNN=KNN(Constraint=Sr,Candidates=skyline_serves,top_k=top_k)
 			end_time = time()
@@ -77,7 +78,7 @@ if __name__=='__main__':
 
 		# (3)调用DQCSR_CC方法
 		time_range=[]
-		for _ in range(10):
+		for _ in range(running_times):
 			begin_time = time()
 			results_CC=DQCSR_CC(Constraint=Sr,Candidates=skyline_serves,top_k=top_k)
 			end_time = time()
@@ -88,7 +89,7 @@ if __name__=='__main__':
 
 		# (4)调用DQCSR_CR方法	
 		time_range=[]
-		for _ in range(10):
+		for _ in range(running_times):
 			begin_time = time()
 			results_CR=DQCSR_CR(Constraint=Sr,Candidates=skyline_serves,top_k=top_k)
 			end_time = time()
@@ -99,7 +100,7 @@ if __name__=='__main__':
 
 		# (5)调用DiQoS方法
 		time_range=[]
-		for _ in range(10):
+		for _ in range(running_times):
 			begin_time = time()
 			results_DQ=DiQoS(sn=sn,Constraint=Sr,Candidates=skyline_serves,top_k=top_k,lamda=lamda)
 			end_time = time()
