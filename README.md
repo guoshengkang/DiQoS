@@ -1,5 +1,5 @@
 This repository is the Python implementation for the SCC 2020 accepted paper:
-> Guosheng Kang, Jianxun Liu, Buqing Cao, Yong Xiao. "Diversified QoS-Centric Service Recommendation for Uncertain QoS Preferences". IEEE International Conference on Services Computing. 2020, pp. \*\*-\*\*.
+> Guosheng Kang, Jianxun Liu, Buqing Cao, Yong Xiao. "Diversified QoS-Centric Service Recommendation for Uncertain QoS Preferences". IEEE International Conference on Services Computing. 2020, pp. 288-295.
 
 ## Procedure of DiQoS
   <div align=center><img width="513" height="240" src="results/Procedure of DQCSR.png"/></div>
